@@ -23,5 +23,7 @@ $ npm i -D react react-dom
 ```
 
 ## 安装转码工具babel
-参加：
+参见：
 
+## 安装webpack
+参见：

@@ -4,7 +4,9 @@
   "description": "react的实例、实践",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel demo -w -d dist",
+    "wps": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -20,13 +22,23 @@
   },
   "homepage": "https://github.com/zrda27/react-demo#readme",
   "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
     "babel-cli": "^6.16.0",
+    "babel-loader": "^6.2.5",
     "babel-plugin-transform-regenerator": "^6.16.1",
     "babel-plugin-transform-runtime": "^6.15.0",
-    "babel-polyfill": "^6.16.0",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
     "react": "^15.3.2",
-    "react-dom": "^15.3.2"
+    "react-dom": "^15.3.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.16.0"
   }
 }
