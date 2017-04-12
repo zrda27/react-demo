@@ -23,7 +23,7 @@
   "homepage": "https://github.com/zrda27/react-demo#readme",
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
-    "babel-cli": "^6.16.0",
+    "babel-cli": "^6.23.0",
     "babel-loader": "^6.2.5",
     "babel-plugin-transform-regenerator": "^6.16.1",
     "babel-plugin-transform-runtime": "^6.15.0",
